@@ -16,7 +16,7 @@ public class NxtGenAlertPopupPage {
 	public NxtGenAlertPopupPage(WebDriver driver) {
 		this.driver = driver;
 	}
-	
+	//webelement stored page
 	// Initilize the webelements locators values using FINDBY class	
 	@FindBy(name=ObjectRepository.alertBoxName) 
 	@CacheLookup
